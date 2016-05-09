@@ -1,4 +1,4 @@
 function test() {
    var j = 3;
-   console.log(j);
+   console.log("This is j: ", j);
 }
