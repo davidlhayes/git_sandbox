@@ -3,7 +3,9 @@ function prompt(phrase) {
    var key = true;
    if (phrase==password && key) {
       alert("You are allowed access!");
+   } else if (phrase==password) {
+      alert("Key is bad!");
    } else {
-      alert("You are not allowed access!");
+      alert("Access prohibited!");
    }
 }
