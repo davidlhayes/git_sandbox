@@ -1,2 +1,3 @@
 setting = A
 config = "base"
+layout = "portrait"
